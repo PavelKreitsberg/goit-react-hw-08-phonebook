@@ -21,8 +21,6 @@ export default function Register() {
     // );
     const user = { name, email, password };
 
-    console.log(user);
-
     dispatch(register(user));
 
     setName('');

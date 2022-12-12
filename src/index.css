@@ -25,6 +25,8 @@ button {
   border-radius: 6px;
   border: none;
 
+  cursor: pointer;
+
   color: #fff;
   background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
   background-origin: border-box;
@@ -70,6 +72,7 @@ a.active {
 form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 16px;
 }
 
 form input {

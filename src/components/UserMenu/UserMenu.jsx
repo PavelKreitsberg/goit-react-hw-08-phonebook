@@ -8,8 +8,6 @@ export const UserMenu = () => {
 
   const { user } = useAuth();
 
-  console.log(user);
-
   return (
     <div className={css.UserMenu}>
       <p>Hi, {user.name}</p>
