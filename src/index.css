@@ -54,3 +54,31 @@ code {
 .spinnerWrapper {
   justify-content: center;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+}
+
+a.active {
+  color: #367af6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 8px;
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* form input::placeholder {
+
+} */
