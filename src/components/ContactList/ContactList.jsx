@@ -27,12 +27,12 @@ export const ContactList = () => {
   return (
     <ul className="contactList">
       {filteredList.length > 0 &&
-        filteredList.map(({ id, name, number }) => (
-          <li key={id} className={css.item}>
+        filteredList.map(({ _id, name, number }) => (
+          <li key={_id} className={css.item}>
             <p className={css.item__text}>
               {name}: {number}
             </p>
-            <button id={id} onClick={deleteContactByClick}>
+            <button id={_id} onClick={deleteContactByClick}>
               delete
             </button>
           </li>
